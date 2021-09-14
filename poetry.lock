@@ -19,14 +19,14 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "fastapi"
-version = "0.65.0"
+version = "0.65.2"
 description = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
 category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-pydantic = ">=1.0.0,<2.0.0"
+pydantic = ">=1.6.2,<1.7 || >1.7,<1.7.1 || >1.7.1,<1.7.2 || >1.7.2,<1.7.3 || >1.7.3,<1.8 || >1.8,<1.8.1 || >1.8.1,<2.0.0"
 starlette = "0.14.2"
 
 [package.extras]
@@ -81,7 +81,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.6.10"
-content-hash = "217d3e9ca52f394dc75ffd3cc86ea0382ebd7bf7e95f9dbaf9caa689a41c6138"
+content-hash = "8a37258c8c1eb6abebf44f6305a652e1ed5986a15515d391fa2ab3587d759c75"
 
 [metadata.files]
 dataclasses = [
@@ -93,8 +93,8 @@ django = [
     {file = "Django-1.9.tar.gz", hash = "sha256:05fe4b19a8778d4b48bbf1f4dfca3106881fea7982664553e7f7f861606f7c66"},
 ]
 fastapi = [
-    {file = "fastapi-0.65.0-py3-none-any.whl", hash = "sha256:2e61fdda3149a4aea497137e720a008db15a935262596956825666eb60516c4a"},
-    {file = "fastapi-0.65.0.tar.gz", hash = "sha256:ede7d6b010c77ec27a0e5f7faad315d2abc80c4eebbce2b28f2e2c06866ad199"},
+    {file = "fastapi-0.65.2-py3-none-any.whl", hash = "sha256:39569a18914075b2f1aaa03bcb9dc96a38e0e5dabaf3972e088c9077dfffa379"},
+    {file = "fastapi-0.65.2.tar.gz", hash = "sha256:8359e55d8412a5571c0736013d90af235d6949ec4ce978e9b63500c8f4b6f714"},
 ]
 pillow = [
     {file = "Pillow-6.2.2-cp27-cp27m-macosx_10_6_intel.whl", hash = "sha256:834dd023b7f987d6b700ad93dc818098d7eb046bd445e9992b3093c6f9d7a95f"},

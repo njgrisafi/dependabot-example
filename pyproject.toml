@@ -9,7 +9,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "3.6.10"
-fastapi = "0.65.0"
+fastapi = "0.65.2"
 Django = "1.9.0"
 Pillow = "6.2.2"
 
