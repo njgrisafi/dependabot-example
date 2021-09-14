@@ -8,13 +8,18 @@ python-versions = ">=3.6, <3.7"
 
 [[package]]
 name = "django"
-version = "1.9"
+version = "2.2.24"
 description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.5"
+
+[package.dependencies]
+pytz = "*"
+sqlparse = ">=0.2.2"
 
 [package.extras]
+argon2 = ["argon2-cffi (>=16.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
@@ -60,6 +65,22 @@ dotenv = ["python-dotenv (>=0.10.4)"]
 email = ["email-validator (>=1.0.3)"]
 
 [[package]]
+name = "pytz"
+version = "2021.1"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "sqlparse"
+version = "0.4.2"
+description = "A non-validating SQL parser."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
 name = "starlette"
 version = "0.14.2"
 description = "The little ASGI library that shines."
@@ -81,7 +102,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.6.10"
-content-hash = "217d3e9ca52f394dc75ffd3cc86ea0382ebd7bf7e95f9dbaf9caa689a41c6138"
+content-hash = "786f026ba224ca3c8146164d218218cc4a4a208a2942cdf3bcc9d74fb843c804"
 
 [metadata.files]
 dataclasses = [
@@ -89,8 +110,8 @@ dataclasses = [
     {file = "dataclasses-0.8.tar.gz", hash = "sha256:8479067f342acf957dc82ec415d355ab5edb7e7646b90dc6e2fd1d96ad084c97"},
 ]
 django = [
-    {file = "Django-1.9-py2.py3-none-any.whl", hash = "sha256:e66d58bfeed3a5eb44f2af6d5f1b6a85d656c4180ebba63b692e58d29db2a716"},
-    {file = "Django-1.9.tar.gz", hash = "sha256:05fe4b19a8778d4b48bbf1f4dfca3106881fea7982664553e7f7f861606f7c66"},
+    {file = "Django-2.2.24-py3-none-any.whl", hash = "sha256:f2084ceecff86b1e631c2cd4107d435daf4e12f1efcdf11061a73bf0b5e95f92"},
+    {file = "Django-2.2.24.tar.gz", hash = "sha256:3339ff0e03dee13045aef6ae7b523edff75b6d726adf7a7a48f53d5a501f7db7"},
 ]
 fastapi = [
     {file = "fastapi-0.65.0-py3-none-any.whl", hash = "sha256:2e61fdda3149a4aea497137e720a008db15a935262596956825666eb60516c4a"},
@@ -151,6 +172,14 @@ pydantic = [
     {file = "pydantic-1.8.2-cp39-cp39-win_amd64.whl", hash = "sha256:4be75bebf676a5f0f87937c6ddb061fa39cbea067240d98e298508c1bda6f3f3"},
     {file = "pydantic-1.8.2-py3-none-any.whl", hash = "sha256:fec866a0b59f372b7e776f2d7308511784dace622e0992a0b59ea3ccee0ae833"},
     {file = "pydantic-1.8.2.tar.gz", hash = "sha256:26464e57ccaafe72b7ad156fdaa4e9b9ef051f69e175dbbb463283000c05ab7b"},
+]
+pytz = [
+    {file = "pytz-2021.1-py2.py3-none-any.whl", hash = "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"},
+    {file = "pytz-2021.1.tar.gz", hash = "sha256:83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"},
+]
+sqlparse = [
+    {file = "sqlparse-0.4.2-py3-none-any.whl", hash = "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"},
+    {file = "sqlparse-0.4.2.tar.gz", hash = "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae"},
 ]
 starlette = [
     {file = "starlette-0.14.2-py3-none-any.whl", hash = "sha256:3c8e48e52736b3161e34c9f0e8153b4f32ec5d8995a3ee1d59410d92f75162ed"},
