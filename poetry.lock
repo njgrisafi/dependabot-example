@@ -11,7 +11,7 @@ pytz = ">=0a"
 
 [[package]]
 name = "bleach"
-version = "3.1.5"
+version = "3.3.0"
 description = "An easy safelist-based HTML-sanitizing tool."
 category = "main"
 optional = false
@@ -168,7 +168,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.6.10"
-content-hash = "af30f6de5b468e2f6a8bf8057523b0e45e60862d7065d80e6ea02c0c5927a52d"
+content-hash = "435c8b0cc6364b4d52b3fb30bdbe6054cee7cffc331a9b405bc37f2ff9a9bb64"
 
 [metadata.files]
 babel = [
@@ -176,8 +176,8 @@ babel = [
     {file = "Babel-2.6.0.tar.gz", hash = "sha256:8cba50f48c529ca3fa18cf81fa9403be176d374ac4d60738b839122dfaaa3d23"},
 ]
 bleach = [
-    {file = "bleach-3.1.5-py2.py3-none-any.whl", hash = "sha256:2bce3d8fab545a6528c8fa5d9f9ae8ebc85a56da365c7f85180bfe96a35ef22f"},
-    {file = "bleach-3.1.5.tar.gz", hash = "sha256:3c4c520fdb9db59ef139915a5db79f8b51bc2a7257ea0389f30c846883430a4b"},
+    {file = "bleach-3.3.0-py2.py3-none-any.whl", hash = "sha256:6123ddc1052673e52bab52cdc955bcb57a015264a1c57d37bea2f6b817af0125"},
+    {file = "bleach-3.3.0.tar.gz", hash = "sha256:98b3170739e5e83dd9dc19633f074727ad848cbedb6026708c8ac2d3b697a433"},
 ]
 dataclasses = [
     {file = "dataclasses-0.8-py3-none-any.whl", hash = "sha256:0201d89fa866f68c8ebd9d08ee6ff50c0b255f8ec63a71c16fda7af82bb887bf"},
