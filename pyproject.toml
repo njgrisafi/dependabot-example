@@ -8,7 +8,9 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-local-pkg = {path = "./local-pkg", platform = "linux"}
+local-pkg = [
+    {path = "./local-pkg", platform = "linux"}
+]
 python = "3.6.10"
 fastapi = "0.65.0"
 raven = "6.10.0"
